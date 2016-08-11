@@ -1,0 +1,45 @@
+{
+  "name": "rick-and-morty-cli",
+  "version": "1.0.0",
+  "description": "Get Rick and Morty GIFs in your command line",
+  "main": "cli.js",
+  "bin": {
+    "rick-and-morty": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "rick",
+    "and",
+    "morty",
+    "cli",
+    "cli-app",
+    "gif",
+    "gifs",
+    "list",
+    "array",
+    "random"
+  ],
+  "author": "Zack Harley",
+  "license": "MIT",
+  "dependencies": { 
+    "meow": "^3.7.0",
+    "opn": "^4.0.2",
+    "rick-and-morty": "*"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
