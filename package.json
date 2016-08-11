@@ -1,6 +1,6 @@
 {
   "name": "rick-and-morty-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get Rick and Morty GIFs in your command line",
   "main": "cli.js",
   "bin": {
