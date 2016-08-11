@@ -30,7 +30,7 @@ if (cli.flags.all && cli.flags.play) {
 	console.log(rickAndMorty.all.join('\n'));
 } else if (cli.flags.play) {
 	open(rickAndMorty.random());
-} else if(!cli.flags.all && !cli.flags.play && Object.keys(cli.flags).length === 0) {
+} else if (!cli.flags.all && !cli.flags.play && Object.keys(cli.flags).length === 0) {
 	console.log(rickAndMorty.random());
 } else {
 	console.log(cli.help);
