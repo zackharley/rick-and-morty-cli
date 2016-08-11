@@ -24,8 +24,6 @@ const cli = meow(`
 	}
 });
 
-console.log(cli.flags);
-
 if (cli.flags.all && cli.flags.play) {
 	console.log('Sorry, I can\'t play all of the GIFs');
 } else if (cli.flags.all) {
