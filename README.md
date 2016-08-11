@@ -14,6 +14,22 @@ $ npm install --global rick-and-morty-cli
 
 ```
 $ rick-and-morty --help
+
+Get Rick and Morty GIFs in your command line
+
+  Examples
+    $ rick-and-morty
+    http://i.giphy.com/l41lI4bYmcsPJX9Go.gif
+    $ rick-and-morty --all
+    http://i.giphy.com/l41lI4bYmcsPJX9Go.gif
+    http://i.giphy.com/2s0ouek7HJmWQ.gif
+    ...
+    $ rick-and-morty -p
+    // -> Opens in your browser
+
+  Options
+    --all  Get all of the GIF URLs
+    --play, -p  Play a random GIF
 ```
 
 ## Related
