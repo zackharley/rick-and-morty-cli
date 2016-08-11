@@ -1,6 +1,8 @@
-# rick-and-morty-cli {
+# rick-and-morty-cli [![Build Status](https://travis-ci.org/zackharley/rick-and-morty-cli.svg?branch=master)](https://travis-ci.org/zackharley/rick-and-morty-cli) {
 
 > Get [Rick and Morty][1] gifs
+
+![Rick and Morty](rick-and-morty.gif)
 
 ## Install
 
