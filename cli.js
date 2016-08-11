@@ -24,14 +24,16 @@ const cli = meow(`
 	}
 });
 
+console.log(cli.flags);
+
 if (cli.flags.all && cli.flags.play) {
 	console.log('Sorry, I can\'t play all of the GIFs');
 } else if (cli.flags.all) {
 	console.log(rickAndMorty.all.join('\n'));
 } else if (cli.flags.play) {
 	open(rickAndMorty.random());
-} else if(!cli.flags.all && !cli.flags.play) {
+} else if(!cli.flags.all && !cli.flags.play && Object.keys(cli.flags).length === 0) {
 	console.log(rickAndMorty.random());
 } else {
-	throw new Error('That is not a command. Type rick-and-morty --help to see commands.');
+	console.log(cli.help);
 }
