@@ -30,6 +30,8 @@ if (cli.flags.all && cli.flags.play) {
 	console.log(rickAndMorty.all.join('\n'));
 } else if (cli.flags.play) {
 	open(rickAndMorty.random());
-} else {
+} else if(!cli.flags.all && !cli.flags.play) {
 	console.log(rickAndMorty.random());
+} else {
+	throw new Error('That is not a command. Type rick-and-morty --help to see commands.');
 }
